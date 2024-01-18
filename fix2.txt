@@ -22,3 +22,15 @@
     git commit -m "Add file fix2.txt"
 13. git checkout main
 14. git cherry-pick feature2
+15. git add fix2.txt
+    git commit -m "Add commands to fix2.txt"
+16. git remote add origin https://github.com/ValentinaSukonina/gitlab.git
+    git branch -M main
+    git push -u origin main
+    git push --all
+    git push --tags
+    git add fix2.txt
+    git push
+17. git add .gitignore
+    git commit -m "Add file .gitignore"
+    git push

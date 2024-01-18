@@ -1,0 +1,13 @@
+# Ignore Intellij idea folder
+.idea/
+
+
+# Ignore all files with extension jar
+*.jar
+
+# Ignore all files in folders our and target
+/out/
+/target/
+
+# Allow all files with extension html even in folder target
+!/target/*.html
