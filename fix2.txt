@@ -34,7 +34,7 @@
 17. git add .gitignore
     git commit -m "Add file .gitignore"
     git push
-18. git tag -s v1.0 -m "Version 1.0"
+18. git tag -a -s v1.0 -m "Version 1.0"
     git push origin v1.0
 19. git rebase -i HEAD~2    
 20. git checkout -b feature3
